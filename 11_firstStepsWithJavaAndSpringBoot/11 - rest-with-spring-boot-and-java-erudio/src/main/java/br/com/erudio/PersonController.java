@@ -15,7 +15,7 @@ import br.com.erudio.services.PersonServices;
 //@O controle cria um map do Model Object e encontrar uma view equivalente
 //o @restcontroler retorna o objeto e escreve suas informações direto no http
 @RestController// Mistura do @ResponseBody com o @Controller
-@RequestMapping("/person")
+@RequestMapping("/api/person/v1")
 public class PersonController {
 	
 	@Autowired //Age em conjunt com @Service para injeção de dependencias
