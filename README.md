@@ -6,3 +6,4 @@ Content negotiation,
 HATEOAS,
 Flyway,
 Integração com MySQL.
+Cada arquivo contêm a mesma API porêm com os recursos adicionados gradativamente.
